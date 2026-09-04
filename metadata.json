@@ -1,0 +1,6 @@
+{
+  "name": "VERIDOC AI",
+  "description": "Ask your documents. Trust the answer. Turn scattered business documents into an intelligent, searchable RAG knowledge base with transparent source citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
