@@ -26,15 +26,6 @@
 * [System Architecture](#-system-architecture)
 * [How It Works](#-how-it-works)
 * [Technology Stack](#️-technology-stack)
-* [Demonstration Dataset](#-demonstration-dataset)
-* [Example Queries](#-example-queries)
-* [Anti-Hallucination & Grounding](#️-anti-hallucination--grounding)
-* [Project Structure](#-project-structure)
-* [Installation](#-installation)
-* [Environment Variables](#-environment-variables)
-* [Running the Application](#-running-the-application)
-* [Security](#-security)
-* [Roadmap](#-roadmap)
 * [License](#-license)
 
 ---
@@ -182,49 +173,41 @@ This makes Veridoc AI more transparent than a traditional black-box document cha
 
 ## 📸 Screenshots
 
-### 🏠 Main Dashboard
 
 ![Veridoc AI Main Dashboard](./SS1.png)
 
 ---
 
-### 📄 Document Upload & Management
 
 ![Document Upload](./SS2.png)
 
 ---
 
-### 💬 Ask Your Documents
 
 ![Ask Your Documents](./SS3.png)
 
 ---
 
-### 🔎 Grounded Answer & Citations
 
 ![Grounded Answer](./SS4.png)
 
 ---
 
-### 📚 Source Inspector
 
 ![Source Inspector](./SS5.png)
 
 ---
 
-### 🧠 Cross-Document Reasoning
 
 ![Cross-Document Reasoning](./SS6.png)
 
 ---
 
-### 📊 Evaluation & Benchmarking
 
 ![Evaluation and Benchmarking](./SS7.png)
 
 ---
 
-### ⚙️ Additional Platform Interface
 
 ![Veridoc AI Interface](./SS8.png)
 
@@ -347,49 +330,6 @@ Users can inspect the documents and evidence supporting the response.
 * Citation-aware answers
 
 ---
-
-
-
-## 🛡️ Anti-Hallucination & Grounding
-
-Veridoc AI is designed around multiple grounding barriers.
-
-```text
-User Question
-      ↓
-Query Processing
-      ↓
-Semantic Retrieval
-      ↓
-Evidence Ranking
-      ↓
-Context Construction
-      ↓
-Grounding Instructions
-      ↓
-AI Reasoning
-      ↓
-Citation Validation
-      ↓
-Final Answer
-```
-
-The goal is to ensure that answers are based on retrieved evidence rather than unsupported generation.
-
-### Grounding Principles
-
-1. Answer from retrieved context.
-2. Do not invent facts.
-3. Clearly state when information is unavailable.
-4. Separate retrieved facts from calculations.
-5. Provide traceable source references.
-6. Preserve document provenance.
-7. Support cross-document reasoning with evidence.
-
-> **Veridoc AI prioritizes honest uncertainty over hallucinated confidence.**
-
----
-
 
 ## 📄 License
 
